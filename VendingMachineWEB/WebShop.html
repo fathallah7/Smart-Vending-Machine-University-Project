@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" type="text/css" href="cssTry.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SES SHOP</title>
+    <link rel="stylesheet" href="D:\cssTry.css">
+
+
+</head>
+<body>
+
+
+
+
+
+<!-- Top Bar -->
+<div class="top-bar">
+    <!-- Logo -->
+    <div class="logo">
+        <img src="logoteam.png" alt="Logo">
+    </div>
+    <!-- Menu -->
+    <ul class="menu">
+        <li><a href="newpage/Feedback.html"><b><u>Feedback</u></b></a></li>
+        <li><a href="newpage/Support.html"><b><u>Support</u></b></a></li>
+    </ul>
+</div>
+
+<!-- Smart Electric Soda Heading -->
+<div style="font-size: 36px; font-weight: bold; margin-top: 50px;">
+    Smart Electric Soda
+</div>
+
+
+
+    <h1>SES SHOP</h1>
+
+    <div class="products-container">
+
+
+        <div class="product">
+            <img src="https://cdn3.didevelop.com/public/cdn/533_5bad4f8739a1b6fb0e6fffd05fb2b00f.jpg" alt="Cola">
+            <p>CocaCola</p>
+            <div class="pay" onclick="openNewPage()"><b>Buy Now </b> (10 L.E) </div>
+        </div>
+
+
+        <div class="product">
+            
+            <img src="https://i.pinimg.com/736x/c5/e3/8b/c5e38bd5c1c48dc36ab116e0d5101589.jpg" alt="Pepsi">
+            <p>Pepsi</p>
+            <div class="pay" onclick="openNewPage()"><b>Buy Now </b> (10 L.E) </div>
+        </div>
+
+        <div class="product">
+            <img src="https://cdnprod.mafretailproxy.com/sys-master-root/h19/h8e/10065392271390/3845_main.jpg_1700Wx1700H" alt="Fayrouz">
+            <p>Fayrouz</p>
+            <div class="pay" onclick="openNewPage()"><b>Buy Now </b>(10 L.E)</div>
+        </div>
+
+    </div>
+
+
+
+
+
+    <script>
+        function openNewPage() {
+            // Open a new window with "You Won Free Can" centered
+            var newWindow = window.open('', 'New Page', 'width=300,height=400');
+            newWindow.document.body.innerHTML = '<div style="display: flex; justify-content: center; align-items: center; height: 100%;"><h1>You Can Buy Now</h1></div>';
+        }
+    </script>
+
+
+
+
+
+    <!-- Payment Method -->
+    <div class="containerPP">
+        <div class="payment-box">
+            <h2>Play & Win</h2>
+            <div class="payment-method">
+                <img class="paypal-logo" src="https://th.bing.com/th/id/R.fca76a9d27c54d07ba8c567cb3e2fe1d?rik=vJ%2fFvc7xLxNcEg&riu=http%3a%2f%2ftous-logos.com%2fwp-content%2fuploads%2f2017%2f09%2fPaypal-logo.jpg&ehk=Jf3VB7bWFm1sjKT%2bWcnvnB0PvjQJsJRK%2bAhPWwhR0NE%3d&risl=&pid=ImgRaw&r=0" alt="PW Logo">
+                Try Now            </div>
+        </div>
+    </div>
+
+
+
+    <button class="center-bottom" onclick="openBannerImage()">Our Banner</button>
+    <script>
+    function openBannerImage() {
+        var imagePath = 'banner.png'; 
+        window.open(imagePath, '_blank');
+    }
+    </script>
+    
+    <button class="center-team" onclick="openTeamImage()">Our Team</button>
+    <script>
+    function openTeamImage() {
+        var imagePath = 'team1.jpg'; 
+        window.open(imagePath, '_blank');
+    }
+    </script>
+    
+
+
+
+<footer>
+    <p>&copy; SES Team </p>
+  </footer>
+  
+</body>
+</html>
