@@ -1,0 +1,38 @@
+<template>
+
+
+    <div>
+
+        <div class="2xl:container 2xl:mx-auto lg:py-16 lg:px-20 md:py-12 md:px-6 py-9 px-4">
+            <div class="flex flex-col lg:flex-row justify-between gap-8">
+                <div class="w-full lg:w-5/12 flex flex-col justify-center">
+                    <h1 class="text-3xl lg:text-4xl font-bold leading-9 text-gray-800 dark:text-white pb-4">About Us
+                    </h1>
+                    <p class="font-normal text-base leading-6 text-gray-600 dark:text-white">
+
+                        Our vending machine integrated with a mobile app offers an innovative and convenient way to purchase beverages. With features such as convenient payments, remote monitoring, and real-time notifications, our system ensures a seamless user experience. The mobile app allows users to manage inventory efficiently, receive personalized recommendations, and enjoy enhanced security. Whether you're an operator looking for a robust solution or a consumer seeking convenience, our vending machine with mobile app integration is designed to meet all your needs.
+                    
+                    </p>
+                </div>
+                <div class="w-full lg:w-8/12">
+                    <img class="w-full h-full" src="about.jpg"
+                        alt="A group of People" />
+                </div>
+            </div>
+
+          
+        </div>
+
+    </div>
+
+
+
+</template>
+
+<script setup>
+import GuestLayout from '@/Layouts/GuestLayout.vue';
+defineOptions({ layout: GuestLayout });
+
+</script>
+
+<style lang="scss" scoped></style>
